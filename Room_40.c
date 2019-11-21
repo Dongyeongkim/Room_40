@@ -51,7 +51,7 @@ int main() {
 		while (1) {//THE START OF GAME PROCESS
 			scanf(" %c", &starting_mode);// Select the Starting Mode, the modes(Q,Y,L) are existed. 
 			 // SELECT START MODE
-			if (starting_mode == 'Q')break; // SELECT Q -> QUIT
+			if (starting_mode == 'Q'){exit(0);} // SELECT Q -> QUIT
 			else if (starting_mode == 'Y') // SELECT Y -> Start the NEW GAME
 			{
 				system("cls");
